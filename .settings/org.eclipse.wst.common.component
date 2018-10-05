@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PLTIAPPWEB-EAR-JSF">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="PTIGNCJPA.jar" deploy-path="/" handle="module:/resource/PTIGNCJPA/PTIGNCJPA">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PLTIGNC-APPWEB-JSF.war" deploy-path="/" handle="module:/resource/PLTIGNC-APPWEB-JSF/PLTIGNC-APPWEB-JSF">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
